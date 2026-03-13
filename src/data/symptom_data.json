@@ -1,0 +1,261 @@
+[
+    {
+        "disease": "Common Cold",
+        "symptoms": [
+            "cough",
+            "cold",
+            "soreThroat",
+            "fever",
+            "fatigue"
+        ],
+        "description": "A viral infection of your nose and throat (upper respiratory tract). It's usually harmless, although it might not feel that way."
+    },
+    {
+        "disease": "Influenza (Flu)",
+        "symptoms": [
+            "fever",
+            "bodyAche",
+            "fatigue",
+            "headache",
+            "cough",
+            "soreThroat"
+        ],
+        "description": "A viral infection that attacks your respiratory system — your nose, throat and lungs."
+    },
+    {
+        "disease": "Food Poisoning",
+        "symptoms": [
+            "nausea",
+            "vomiting",
+            "diarrhea",
+            "abdominalPain",
+            "fatigue",
+            "fever"
+        ],
+        "description": "Illness caused by eating contaminated food. Infectious organisms — including bacteria, viruses and parasites — or their toxins are the most common causes."
+    },
+    {
+        "disease": "Gastroenteritis",
+        "symptoms": [
+            "diarrhea",
+            "abdominalPain",
+            "vomiting",
+            "nausea",
+            "fever",
+            "bodyAche"
+        ],
+        "description": "An inflammation of the lining of the intestines caused by a virus, bacteria, or parasites."
+    },
+    {
+        "disease": "Migraine",
+        "symptoms": [
+            "headache",
+            "nausea",
+            "blurredVision",
+            "dizziness",
+            "fatigue"
+        ],
+        "description": "A headache that can cause severe throbbing pain or a pulsing sensation, usually on one side of the head."
+    },
+    {
+        "disease": "Pneumonia",
+        "symptoms": [
+            "cough",
+            "fever",
+            "breathShort",
+            "fatigue",
+            "chestPain",
+            "bodyAche"
+        ],
+        "description": "An infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus."
+    },
+    {
+        "disease": "Allergic Rhinitis",
+        "symptoms": [
+            "cold",
+            "soreThroat",
+            "blurredVision",
+            "fatigue",
+            "headache"
+        ],
+        "description": "An allergic response causing itchy, watery eyes, sneezing, and other similar symptoms."
+    },
+    {
+        "disease": "Dengue",
+        "symptoms": [
+            "fever",
+            "bodyAche",
+            "headache",
+            "fatigue",
+            "nausea",
+            "vomiting",
+            "skinRash",
+            "jointPain"
+        ],
+        "description": "A mosquito-borne viral disease occurring in tropical and subtropical areas."
+    },
+    {
+        "disease": "COVID-19",
+        "symptoms": [
+            "fever",
+            "cough",
+            "fatigue",
+            "tasteLoss",
+            "breathShort",
+            "bodyAche",
+            "soreThroat",
+            "headache"
+        ],
+        "description": "A contagious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)."
+    },
+    {
+        "disease": "Asthma",
+        "symptoms": [
+            "breathShort",
+            "cough",
+            "chestPain",
+            "fatigue"
+        ],
+        "description": "A condition in which your airways narrow and swell and may produce extra mucus."
+    },
+    {
+        "disease": "Hypertension (High Blood Pressure)",
+        "symptoms": [
+            "headache",
+            "blurredVision",
+            "dizziness",
+            "fatigue"
+        ],
+        "description": "A condition in which the force of the blood against the artery walls is too high."
+    },
+    {
+        "disease": "Diabetes",
+        "symptoms": [
+            "fatigue",
+            "blurredVision",
+            "insomnia",
+            "dizziness"
+        ],
+        "description": "A group of diseases that result in too much sugar in the blood (high blood glucose)."
+    },
+    {
+        "disease": "Anemia",
+        "symptoms": [
+            "fatigue",
+            "dizziness",
+            "breathShort",
+            "headache",
+            "cold"
+        ],
+        "description": "A condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues."
+    },
+    {
+        "disease": "Heat Stroke",
+        "symptoms": [
+            "fever",
+            "headache",
+            "dizziness",
+            "nausea",
+            "fatigue",
+            "muscleWeakness"
+        ],
+        "description": "A condition caused by your body overheating, usually as a result of prolonged exposure to or physical exertion in high temperatures."
+    },
+    {
+        "disease": "Malaria",
+        "symptoms": [
+            "fever",
+            "cold",
+            "headache",
+            "nausea",
+            "vomiting",
+            "bodyAche",
+            "fatigue"
+        ],
+        "description": "A disease caused by a parasite, transmitted through the bite of infected mosquitoes."
+    },
+    {
+        "disease": "Tuberculosis",
+        "symptoms": [
+            "cough",
+            "fever",
+            "fatigue",
+            "chestPain",
+            "insomnia"
+        ],
+        "description": "A serious infectious disease that mainly affects your lungs."
+    },
+    {
+        "disease": "Thyroid Disorders",
+        "symptoms": [
+            "fatigue",
+            "muscleWeakness",
+            "insomnia",
+            "blurredVision",
+            "dizziness"
+        ],
+        "description": "Conditions that affect the thyroid gland, which produces hormones that regulate the body's metabolic rate."
+    },
+    {
+        "disease": "Arthritis",
+        "symptoms": [
+            "jointPain",
+            "muscleWeakness",
+            "fatigue"
+        ],
+        "description": "Inflammation of one or more joints, causing pain and stiffness that can worsen with age."
+    },
+    {
+        "disease": "UTI",
+        "symptoms": [
+            "abdominalPain",
+            "fever",
+            "nausea"
+        ],
+        "description": "An infection in any part of the urinary system, the kidneys, bladder, or urethra."
+    },
+    {
+        "disease": "Bronchitis",
+        "symptoms": [
+            "cough",
+            "chestPain",
+            "fatigue",
+            "fever",
+            "breathShort"
+        ],
+        "description": "Inflammation of the lining of your bronchial tubes, which carry air to and from your lungs."
+    },
+    {
+        "disease": "Sinusitis",
+        "symptoms": [
+            "headache",
+            "cold",
+            "soreThroat",
+            "fever",
+            "cough"
+        ],
+        "description": "A condition in which the cavities around the nasal passages become inflamed."
+    },
+    {
+        "disease": "Jaundice",
+        "symptoms": [
+            "nausea",
+            "vomiting",
+            "fatigue",
+            "abdominalPain",
+            "dizziness"
+        ],
+        "description": "A condition in which the skin, whites of the eyes and mucous membranes turn yellow because of a high level of bilirubin."
+    },
+    {
+        "disease": "Chickenpox",
+        "symptoms": [
+            "fever",
+            "skinRash",
+            "bodyAche",
+            "headache",
+            "fatigue"
+        ],
+        "description": "A highly contagious viral infection causing an itchy, blister-like rash on the skin."
+    }
+]

@@ -1,0 +1,13 @@
+project_id = "bdlsoabquzbnxquolagk"
+
+[functions.ai-health]
+verify_jwt = false
+
+[functions.wearable-sync]
+verify_jwt = false
+
+[functions.google-fit-callback]
+verify_jwt = false
+
+[functions.reminders]
+verify_jwt = false

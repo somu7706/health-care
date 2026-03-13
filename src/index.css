@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 200 20% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 20% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 20% 10%;
+
+    --primary: 168 76% 36%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 168 30% 95%;
+    --secondary-foreground: 168 76% 26%;
+
+    --muted: 200 10% 95%;
+    --muted-foreground: 200 10% 45%;
+
+    --accent: 168 40% 92%;
+    --accent-foreground: 168 76% 26%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 15% 90%;
+    --input: 200 15% 90%;
+    --ring: 168 76% 36%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 170 25% 12%;
+    --sidebar-foreground: 170 10% 80%;
+    --sidebar-primary: 168 76% 46%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 170 20% 18%;
+    --sidebar-accent-foreground: 168 76% 46%;
+    --sidebar-border: 170 15% 20%;
+    --sidebar-ring: 168 76% 46%;
+    --sidebar-muted: 170 10% 50%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 38 92% 15%;
+    --success: 152 69% 40%;
+    --success-foreground: 0 0% 100%;
+    --info: 205 80% 55%;
+    --info-foreground: 0 0% 100%;
+
+    --feature-upload: 168 76% 94%;
+    --feature-upload-icon: 168 76% 36%;
+    --feature-doctor: 340 60% 94%;
+    --feature-doctor-icon: 340 60% 50%;
+    --feature-hospital: 38 80% 94%;
+    --feature-hospital-icon: 38 80% 50%;
+    --feature-ai: 260 60% 94%;
+    --feature-ai-icon: 260 60% 50%;
+    --feature-symptom: 0 60% 94%;
+    --feature-symptom-icon: 0 60% 50%;
+  }
+
+  .dark {
+    --background: 170 25% 7%;
+    --foreground: 170 10% 92%;
+
+    --card: 170 25% 10%;
+    --card-foreground: 170 10% 92%;
+
+    --popover: 170 25% 10%;
+    --popover-foreground: 170 10% 92%;
+
+    --primary: 168 76% 46%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 170 20% 15%;
+    --secondary-foreground: 168 50% 70%;
+
+    --muted: 170 15% 15%;
+    --muted-foreground: 170 10% 55%;
+
+    --accent: 170 20% 15%;
+    --accent-foreground: 168 76% 46%;
+
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 170 15% 18%;
+    --input: 170 15% 18%;
+    --ring: 168 76% 46%;
+
+    --sidebar-background: 170 25% 8%;
+    --sidebar-foreground: 170 10% 75%;
+    --sidebar-primary: 168 76% 46%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 170 20% 14%;
+    --sidebar-accent-foreground: 168 76% 46%;
+    --sidebar-border: 170 15% 15%;
+    --sidebar-ring: 168 76% 46%;
+    --sidebar-muted: 170 10% 45%;
+
+    --feature-upload: 168 40% 15%;
+    --feature-upload-icon: 168 76% 50%;
+    --feature-doctor: 340 30% 15%;
+    --feature-doctor-icon: 340 60% 55%;
+    --feature-hospital: 38 40% 15%;
+    --feature-hospital-icon: 38 80% 55%;
+    --feature-ai: 260 30% 15%;
+    --feature-ai-icon: 260 60% 60%;
+    --feature-symptom: 0 30% 15%;
+    --feature-symptom-icon: 0 60% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .sidebar-active {
+    @apply bg-sidebar-accent text-sidebar-accent-foreground font-semibold;
+    border-left: 3px solid hsl(var(--sidebar-primary));
+  }
+}

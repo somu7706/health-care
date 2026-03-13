@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Paracetamol 500mg",
+        "manufacturer": "Cipla",
+        "prefix": "B",
+        "isValid": true,
+        "description": "Standard pain relief and fever reducer.",
+        "batchExamples": [
+            "B1023",
+            "B1045",
+            "B1100"
+        ]
+    },
+    {
+        "name": "Dolo 650",
+        "manufacturer": "Micro Labs",
+        "prefix": "DL",
+        "isValid": true,
+        "description": "Widely used antipyretic for fever management.",
+        "batchExamples": [
+            "DL550",
+            "DL889"
+        ]
+    },
+    {
+        "name": "Amoxicillin 250mg",
+        "manufacturer": "GSK",
+        "prefix": "AMX",
+        "isValid": true,
+        "description": "Broad-spectrum antibiotic.",
+        "batchExamples": [
+            "AMX990",
+            "AMX112"
+        ]
+    },
+    {
+        "name": "Pan D",
+        "manufacturer": "Alkem",
+        "prefix": "PD",
+        "isValid": true,
+        "description": "Antacid used for acidity and heartburn.",
+        "batchExamples": [
+            "PD441",
+            "PD902"
+        ]
+    },
+    {
+        "name": "Augmentin 625",
+        "manufacturer": "GSK",
+        "prefix": "AUG",
+        "isValid": true,
+        "description": "Combination antibiotic for bacterial infections.",
+        "batchExamples": [
+            "AUG223",
+            "AUG881"
+        ]
+    },
+    {
+        "name": "Cetirizine 10mg",
+        "manufacturer": "Dr. Reddy's",
+        "prefix": "CTZ",
+        "isValid": true,
+        "description": "Antihistamine for allergy relief.",
+        "batchExamples": [
+            "CTZ001",
+            "CTZ456"
+        ]
+    },
+    {
+        "name": "Allegra 120mg",
+        "manufacturer": "Sanofi",
+        "prefix": "AL",
+        "isValid": true,
+        "description": "Non-sedating antihistamine for allergies.",
+        "batchExamples": [
+            "AL120",
+            "AL990"
+        ]
+    }
+]

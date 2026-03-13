@@ -1,0 +1,51 @@
+{
+  "model_type": "Random Forest Classifier",
+  "description": "An ensemble of 100 Decision Trees used to classify disease patterns based on symptom presence.",
+  "top_features": [
+    {
+      "symptom": "nausea",
+      "weight": 0.07989887242758219
+    },
+    {
+      "symptom": "bodyAche",
+      "weight": 0.07794833459802998
+    },
+    {
+      "symptom": "headache",
+      "weight": 0.07410339988570133
+    },
+    {
+      "symptom": "fever",
+      "weight": 0.0664587465014371
+    },
+    {
+      "symptom": "cold",
+      "weight": 0.060266200530782396
+    },
+    {
+      "symptom": "muscleWeakness",
+      "weight": 0.05857761980737562
+    },
+    {
+      "symptom": "breathShort",
+      "weight": 0.05617626796911491
+    },
+    {
+      "symptom": "fatigue",
+      "weight": 0.0531727597933425
+    },
+    {
+      "symptom": "blurredVision",
+      "weight": 0.05072183713731517
+    },
+    {
+      "symptom": "insomnia",
+      "weight": 0.046426681380966395
+    }
+  ],
+  "training_metadata": {
+    "samples": 23,
+    "features": 20,
+    "accuracy_on_train": 1.0
+  }
+}
